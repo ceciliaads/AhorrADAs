@@ -1,0 +1,24 @@
+.section-balance {
+    background-color: beige;
+}
+.navbar { 
+    background-color:#D67BFF;
+}
+.navbar-brand { 
+    margin: 40px;
+}
+.navbar-options { 
+    align-items: stretch;
+    display: flex;
+    flex-grow: 1;
+}
+.navbar-end { 
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.navbar-item { 
+    color: white;
+}
+.container { 
+    margin-top: 50px;
+}
