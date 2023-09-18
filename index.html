@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/feae6c3d99.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <header> 
        <!--Barra de navegacion-->
     <nav class="navbar" has-shadow is-spaced is-primary role="navigation">
       <div class="navbar-brand">
@@ -38,19 +42,15 @@
         </div>
       </div>
     </nav>
-</head>
-
-<body>
+  </header>
   
-
-  
-    <section id="balance" class="section-balance">
-        <div class="container columns"> 
+  <section id="balance" class="columns container is-centered p-6">
+        <div class="column is-flex-direction-column is-2"> 
         
          
         <!--Balance--> 
       
-          <div class="column is-3-widescreen is-4-desktop is-12-tablet is-offset-1-widescreen has-background-white">
+          <div class="is-3-widescreen is-4-desktop is-12-tablet is-offset-1-widescreen has-background-white mb-4">
             <h2 class="is-title is-size-3 mb-6 has-text-weight-bold"> Balance </h1>
             <a name="Balance"> </a>
             <div class="columns is-mobile is-vcentered"> 
@@ -67,7 +67,7 @@
             </div>
           </div>
         <!--Filtros-->
-        <div class="column is-3-widescreen is-4-desktop is-12-tablet is-offset-1-widescreen has-background-white pb-3" >
+        <div class="is-3-widescreen is-4-desktop is-12-tablet is-offset-1-widescreen has-background-white pb-3" >
           <div class="columns is-mobile is-vcentered">
               <div class="column">
                   <h3 class="is-size-4 has-text-weight-bold"> Filtros </h3>
@@ -118,11 +118,12 @@
                     </select>
                 </div>
             </div>
+          </div>
         </div>
     </div>
 
      <!--Operaciones-->
-     <div class="is-7-widescreen is-8-desktop">
+     <div class="column is-7">
      <div class="columns mb-4">
       <h3 class="is-size-4 has-text-weight-bold"> Operaciones </h3>
       <div class="column has-text-right-tablet"> </div>
