@@ -74,9 +74,11 @@
               </div>
               <div class="column has-text-right">
                   <a id="toggle-filtros" href="#"> Ocultar filtros</a>
+                  <a id="see-filtros" class="is-hidden"> Mostrar filtros</a>
               </div>
+              
           </div>
-          <div id="filtros" class="field">
+          <div id="filtros" class="field" >
               <label class="label" for="filter-type"> Tipo </label>
               <div class="select is-fullwidth">
                   <select id="filter-type">
@@ -130,6 +132,30 @@
       <button id="see-operation" class="button is-primary" type="button"> + Nueva operacion </button>
      <div id="with-operations" class="is-hidden"> </div>
      </div>
+        <div id="con-operaciones">
+          <div class="columns has-text-weight-semibold is-hidden-mobile is-hidden">
+            <div class="column is-3"> Descripcion </div>
+            <div class="column is-3"> Categoría </div>
+            <div class="column is-2 has-text-right"> Fecha </div>
+            <div class="column is-2 has-text-right"> Monto </div>
+            <div class="column is-2 has-text-right">Acciones </div>
+            </div>
+          </div>
+              <div class="small-operaciones">
+                <div class="columns is-multiline is-mobile is-vcentered">
+                  <h3 class="has-text-weight-semibold"></h3>
+                </div>
+                <div class="colum i-3-tablet is-6-mobile has-text-right-mobile">
+                  <span class="tag is-primary is-light"> </span>
+                </div>
+                <div class="column is-2-tablet has-text-grey is-hidden-mobile has-text-right-tablet"> </div>
+                <div class="colum is-2-tablet is-6-mobile has-text-right">
+                  <p class="is is-fullwidth">
+                    <a class="mr-3 is-size-7 edit-link is-hidden" href="#"> Editar </a>
+                    <a class="is-size-7 delete-link is-hidden" href="#"> Eliminar </a>
+                  </p>
+                </div>
+              </div>
      <div id="whitout-operations" class="my-6 py-6">
       <figure class="image is-2by1">
         <img class="" src="file:///C:/Users/Alumno_Invitado/Downloads/undraw_add_files_re_v09g.svg">
