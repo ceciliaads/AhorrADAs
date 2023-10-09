@@ -15,7 +15,7 @@
 
 <body> 
     <header> 
-       <!--Barra de navegacion-->
+        <!--Barra de navegacion-->
     <nav class="navbar" has-shadow is-spaced is-primary role="navigation">
       <div class="navbar-brand">
         <a class="item-navbar">
@@ -43,14 +43,10 @@
       </div>
     </nav>
   </header>
-  
   <section id="balance" class="columns container is-centered p-6 mt-6">
         <div class="column is-flex-direction-column is-4"> 
-        
-         
-        <!--Balance--> 
-      
-          <div class="has-background-white mb-4 p-3 box">
+                <!--Balance--> 
+      <div class="has-background-white mb-4 p-3 box">
             <h2 class="is-title is-size-3 mb-6 has-text-weight-bold"> Balance </h1>
             <a name="Balance"> </a>
             <div class="columns is-mobile is-vcentered"> 
@@ -123,26 +119,25 @@
           </div>
         </div>
     </div>
-
-     <!--Operaciones-->
+          <!--Operaciones-->
      <div class="column is-7 has-background-white box">
      <div class="columns mb-4">
       <h3 class="is-size-4 has-text-weight-bold"> Operaciones </h3>
       <div class="column has-text-right-tablet"> </div>
       <button id="see-operation" class="button is-primary" type="button"> + Nueva operacion </button>
-     <div id="with-operations" class="is-hidden"> </div>
+     <!--<div id="with-operations" class="is-hidden"> </div>-->
      </div>
-        <div id="con-operaciones">
-          <div class="columns has-text-weight-semibold is-hidden-mobile is-hidden">
+        <div id="con-operaciones" class="columns has-text-weight-semibold is-hidden-mobile">
+          
             <div class="column is-3"> Descripcion </div>
             <div class="column is-3"> Categoría </div>
             <div class="column is-2 has-text-right"> Fecha </div>
             <div class="column is-2 has-text-right"> Monto </div>
             <div class="column is-2 has-text-right">Acciones </div>
-            </div>
+            
           </div>
               <div class="small-operaciones">
-                <div class="columns is-multiline is-mobile is-vcentered">
+                <!--<div class="columns is-multiline is-mobile is-vcentered">
                   <h3 class="has-text-weight-semibold"></h3>
                 </div>
                 <div class="colum i-3-tablet is-6-mobile has-text-right-mobile">
@@ -153,9 +148,9 @@
                   <p class="is is-fullwidth">
                     <a class="mr-3 is-size-7 edit-link is-hidden" href="#"> Editar </a>
                     <a class="is-size-7 delete-link is-hidden" href="#"> Eliminar </a>
-                  </p>
-                </div>
-              </div>
+                  </p> 
+                </div> -->
+              </div> 
      <div id="whitout-operations" class="my-6 py-6">
       <figure class="image is-2by1">
         <img class="" src="file:///C:/Users/Alumno_Invitado/Downloads/undraw_add_files_re_v09g.svg">
@@ -165,8 +160,8 @@
      </div>
      </div>
     </section> 
-  <!--Nueva operacion-->
-   <section id="see-newoperation" class="section mt-5 is-hidden"> 
+          <!--Nueva operacion-->
+  <section id="see-newoperation" class="section mt-5 is-hidden"> 
   <div class="column is-8-widescreen is-10-desktop is-offset-2-widescreen is-offset-1-desktop">
     <div class="box">
       <h2 class="tittle is-size-2 has-text-weight-bold"> Nueva operacion </h2>
@@ -195,12 +190,12 @@
       <label class="label" for="category-select"> Categoría </label>
       <div class="select is-fullwidth"> 
         <select id="select-category" class="select-category">
-          <option value="comida"> Comida </option>
-          <option value="servicios"> Servicios </option>
-          <option value="salidas"> Salidas </option>
-          <option value="educacion"> Educacion </option>
-          <option value="transporte"> Transporte </option>
-          <option value="trabajo"> Trabajo </option>
+          <option value="Comida"> Comida </option>
+          <option value="Servicios"> Servicios </option>
+          <option value="Salidas"> Salidas </option>
+          <option value="Educacion"> Educacion </option>
+          <option value="Transporte"> Transporte </option>
+          <option value="Trabajo"> Trabajo </option>
         </select>
       </div>
     </div>
